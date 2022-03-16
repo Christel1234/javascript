@@ -45,7 +45,7 @@ const people = [
   },
 ];
 
-const result = 0; // Write your answer here
+const result = people.filter(current => current.age > 35 && current.isAdmin); // Write your answer here
 
 // Do not remove this and do not change the
 //    variable 'result' name above. It's
